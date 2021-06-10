@@ -1,0 +1,65 @@
+{
+	"name": "Event sheet 3",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 293293733354641,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "Sprite4"
+					}
+				},
+				{
+					"id": "compare-selected-item-text",
+					"objectClass": "List",
+					"sid": 358846752495715,
+					"parameters": {
+						"text-to-compare": "\"Icarus\"",
+						"case-sensitivity": "ignore-case"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 956751995798776,
+					"parameters": {
+						"layout": "gameplay1"
+					}
+				}
+			],
+			"sid": 386319473326264
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-tap-object",
+					"objectClass": "Touch",
+					"sid": 505426155166012,
+					"parameters": {
+						"object": "Sprite4"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 585692363633190,
+					"parameters": {
+						"layout": "gameplay1"
+					}
+				}
+			],
+			"sid": 287339219808137
+		}
+	],
+	"sid": 136577154757876
+}

@@ -1,0 +1,604 @@
+{
+	"name": "Event sheet 4",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 694212997520020
+				}
+			],
+			"actions": [
+				{
+					"id": "move-at-angle",
+					"objectClass": "arrowleft",
+					"sid": 806394663941272,
+					"parameters": {
+						"angle": "90",
+						"distance": "5"
+					}
+				},
+				{
+					"id": "move-at-angle",
+					"objectClass": "arrowdown",
+					"sid": 225614102189198,
+					"parameters": {
+						"angle": "90",
+						"distance": "5"
+					}
+				},
+				{
+					"id": "move-at-angle",
+					"objectClass": "arrowup",
+					"sid": 565442025248651,
+					"parameters": {
+						"angle": "90",
+						"distance": "5"
+					}
+				},
+				{
+					"id": "move-at-angle",
+					"objectClass": "arrowright",
+					"sid": 232917000658089,
+					"parameters": {
+						"angle": "90",
+						"distance": "5"
+					}
+				},
+				{
+					"id": "set-position",
+					"objectClass": "3DShape",
+					"sid": 922273813436973,
+					"parameters": {
+						"x": "Mouse.X",
+						"y": "Mouse.Y"
+					}
+				}
+			],
+			"sid": 189298076476730
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 877904738290821,
+					"parameters": {
+						"key": 68
+					}
+				},
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "arrowleft",
+					"sid": 243172259031558,
+					"parameters": {
+						"object": "Sprite7"
+					}
+				},
+				{
+					"id": "compare-y",
+					"objectClass": "arrowleft",
+					"sid": 307839485553243,
+					"parameters": {
+						"comparison": 5,
+						"y-co-ordinate": "1594"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "arrowleft",
+					"sid": 584076880726801
+				},
+				{
+					"id": "set-animation",
+					"objectClass": "Sprite7",
+					"sid": 148680419921933,
+					"parameters": {
+						"animation": "\"Animation 2\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 359801270721594
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 647311941326626,
+					"parameters": {
+						"key": 70
+					}
+				},
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "arrowdown",
+					"sid": 466461577989626,
+					"parameters": {
+						"object": "Sprite8"
+					}
+				},
+				{
+					"id": "compare-y",
+					"objectClass": "arrowdown",
+					"sid": 800547692489994,
+					"parameters": {
+						"comparison": 5,
+						"y-co-ordinate": "1594"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "arrowdown",
+					"sid": 786366207950764
+				},
+				{
+					"id": "set-animation",
+					"objectClass": "Sprite8",
+					"sid": 497616215038209,
+					"parameters": {
+						"animation": "\"Animation 2\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 717992453009837
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 513661672259986,
+					"parameters": {
+						"key": 74
+					}
+				},
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "arrowup",
+					"sid": 522245489498629,
+					"parameters": {
+						"object": "Sprite9"
+					}
+				},
+				{
+					"id": "compare-y",
+					"objectClass": "arrowup",
+					"sid": 389356317775169,
+					"parameters": {
+						"comparison": 5,
+						"y-co-ordinate": "1594"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "arrowup",
+					"sid": 906519198679168
+				},
+				{
+					"id": "set-animation",
+					"objectClass": "Sprite9",
+					"sid": 522131030860560,
+					"parameters": {
+						"animation": "\"Animation 2\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 901833768757215
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 981109821706904,
+					"parameters": {
+						"key": 75
+					}
+				},
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "arrowright",
+					"sid": 722666422713417,
+					"parameters": {
+						"object": "Sprite10"
+					}
+				},
+				{
+					"id": "compare-y",
+					"objectClass": "arrowright",
+					"sid": 108118225228238,
+					"parameters": {
+						"comparison": 5,
+						"y-co-ordinate": "1594"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "arrowright",
+					"sid": 174916884382682
+				},
+				{
+					"id": "set-animation",
+					"objectClass": "Sprite10",
+					"sid": 775947195529156,
+					"parameters": {
+						"animation": "\"Animation 2\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 346313509204136
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 712313303114838
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 426282820468925,
+					"parameters": {
+						"audio-file": "Icarus",
+						"loop": "not-looping",
+						"volume": "0",
+						"tag-optional": "\"AAAAA\""
+					}
+				},
+				{
+					"id": "stop",
+					"objectClass": "Audio",
+					"sid": 212700501433356,
+					"parameters": {
+						"tag": "\"songthingidk\""
+					}
+				},
+				{
+					"id": "set-cursor-style",
+					"objectClass": "Mouse",
+					"sid": 986219338094523,
+					"parameters": {
+						"cursor-style": "none"
+					}
+				}
+			],
+			"sid": 566168892420209
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-ended",
+					"objectClass": "Audio",
+					"sid": 267237796191048,
+					"parameters": {
+						"tag": "\"AAAAA\""
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 209076104617097,
+					"parameters": {
+						"layout": "gameplay"
+					}
+				},
+				{
+					"type": "script",
+					"script": "alert(\"You have beaten Icarus!\");"
+				}
+			],
+			"sid": 634856497955435
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-touched-object",
+					"objectClass": "Touch",
+					"sid": 948006842990187,
+					"parameters": {
+						"object": "Sprite7"
+					}
+				},
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "arrowleft",
+					"sid": 609164242778828,
+					"parameters": {
+						"object": "Sprite7"
+					}
+				},
+				{
+					"id": "compare-y",
+					"objectClass": "arrowleft",
+					"sid": 935409864115889,
+					"parameters": {
+						"comparison": 5,
+						"y-co-ordinate": "1694"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "arrowleft",
+					"sid": 860905185904129
+				},
+				{
+					"id": "set-animation",
+					"objectClass": "Sprite7",
+					"sid": 940258876917932,
+					"parameters": {
+						"animation": "\"Animation 2\"",
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "set-z-height",
+					"objectClass": "3DShape",
+					"sid": 141791412087968,
+					"parameters": {
+						"z-height": "15"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 924827552219867,
+					"parameters": {
+						"seconds": "0.2"
+					}
+				},
+				{
+					"id": "set-z-height",
+					"objectClass": "3DShape",
+					"sid": 370046766744055,
+					"parameters": {
+						"z-height": "45"
+					}
+				}
+			],
+			"sid": 517788797978140
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-touched-object",
+					"objectClass": "Touch",
+					"sid": 127853317847733,
+					"parameters": {
+						"object": "Sprite8"
+					}
+				},
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "arrowdown",
+					"sid": 133817787338355,
+					"parameters": {
+						"object": "Sprite8"
+					}
+				},
+				{
+					"id": "compare-y",
+					"objectClass": "arrowdown",
+					"sid": 806783910467291,
+					"parameters": {
+						"comparison": 5,
+						"y-co-ordinate": "1694"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "arrowdown",
+					"sid": 219961913917754
+				},
+				{
+					"id": "set-animation",
+					"objectClass": "Sprite8",
+					"sid": 858960951672917,
+					"parameters": {
+						"animation": "\"Animation 2\"",
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "set-z-height",
+					"objectClass": "3DShape",
+					"sid": 378408238338750,
+					"parameters": {
+						"z-height": "15"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 715562651546071,
+					"parameters": {
+						"seconds": "0.2"
+					}
+				},
+				{
+					"id": "set-z-height",
+					"objectClass": "3DShape",
+					"sid": 342961631820714,
+					"parameters": {
+						"z-height": "45"
+					}
+				}
+			],
+			"sid": 667829669153272
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-touched-object",
+					"objectClass": "Touch",
+					"sid": 546454106349951,
+					"parameters": {
+						"object": "Sprite9"
+					}
+				},
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "arrowup",
+					"sid": 464244094095675,
+					"parameters": {
+						"object": "Sprite9"
+					}
+				},
+				{
+					"id": "compare-y",
+					"objectClass": "arrowup",
+					"sid": 159992767747893,
+					"parameters": {
+						"comparison": 5,
+						"y-co-ordinate": "1694"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "arrowup",
+					"sid": 425995415494258
+				},
+				{
+					"id": "set-animation",
+					"objectClass": "Sprite9",
+					"sid": 411997070648228,
+					"parameters": {
+						"animation": "\"Animation 2\"",
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "set-z-height",
+					"objectClass": "3DShape",
+					"sid": 478570316683503,
+					"parameters": {
+						"z-height": "15"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 946955420728278,
+					"parameters": {
+						"seconds": "0.2"
+					}
+				},
+				{
+					"id": "set-z-height",
+					"objectClass": "3DShape",
+					"sid": 565358488677193,
+					"parameters": {
+						"z-height": "45"
+					}
+				}
+			],
+			"sid": 722616375408437
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-touched-object",
+					"objectClass": "Touch",
+					"sid": 671326845739232,
+					"parameters": {
+						"object": "Sprite10"
+					}
+				},
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "arrowright",
+					"sid": 949720793051190,
+					"parameters": {
+						"object": "Sprite10"
+					}
+				},
+				{
+					"id": "compare-y",
+					"objectClass": "arrowright",
+					"sid": 269381411051044,
+					"parameters": {
+						"comparison": 5,
+						"y-co-ordinate": "1694"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "arrowright",
+					"sid": 958882828690306
+				},
+				{
+					"id": "set-animation",
+					"objectClass": "Sprite10",
+					"sid": 300170952181247,
+					"parameters": {
+						"animation": "\"Animation 2\"",
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "set-z-height",
+					"objectClass": "3DShape",
+					"sid": 362534208513015,
+					"parameters": {
+						"z-height": "15"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 298660717399577,
+					"parameters": {
+						"seconds": "0.2"
+					}
+				},
+				{
+					"id": "set-z-height",
+					"objectClass": "3DShape",
+					"sid": 915980144942919,
+					"parameters": {
+						"z-height": "45"
+					}
+				}
+			],
+			"sid": 791357180226107
+		}
+	],
+	"sid": 444034781751532
+}

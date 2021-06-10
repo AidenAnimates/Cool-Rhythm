@@ -1,0 +1,37 @@
+{
+	"name": "arrowdown",
+	"plugin-id": "Sprite",
+	"sid": 689296095037313,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 142,
+						"height": 141,
+						"originX": 0.4964788732394366,
+						"originY": 0.5141843971631206,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 4739514,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 244960110512479,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

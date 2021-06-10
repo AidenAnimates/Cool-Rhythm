@@ -1,0 +1,49 @@
+{
+	"name": "arrowup",
+	"plugin-id": "Sprite",
+	"sid": 683125826823216,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 143,
+						"height": 143,
+						"originX": 0.493006993006993,
+						"originY": 0.6748251748251748,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 9199950,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.993006993006993,
+								0,
+								0.993006993006993,
+								1,
+								0,
+								1
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 430545588713026,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

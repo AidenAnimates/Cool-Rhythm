@@ -1,0 +1,55 @@
+{
+	"name": "Event sheet 1",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-time",
+					"objectClass": "System",
+					"sid": 112335671250409,
+					"parameters": {
+						"comparison": 0,
+						"time-seconds": "5.0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 398786789259035,
+					"parameters": {
+						"layout": "main menu"
+					}
+				}
+			],
+			"sid": 664339872561124
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 893219593696771
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 529063393590074,
+					"parameters": {
+						"audio-file": "jp loop",
+						"loop": "looping",
+						"volume": "0",
+						"tag-optional": "\"songthingidk\""
+					}
+				}
+			],
+			"sid": 706266835830276
+		}
+	],
+	"sid": 401103968565494
+}

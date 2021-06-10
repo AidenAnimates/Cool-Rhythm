@@ -1,0 +1,56 @@
+{
+	"name": "Event sheet 2",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 254444929712025,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "Sprite4"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 182912693541321,
+					"parameters": {
+						"layout": "gameplay"
+					}
+				}
+			],
+			"sid": 998304144823138
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-tap-object",
+					"objectClass": "Touch",
+					"sid": 435335005376616,
+					"parameters": {
+						"object": "Sprite4"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 469381097202279,
+					"parameters": {
+						"layout": "gameplay"
+					}
+				}
+			],
+			"sid": 438584065452004
+		}
+	],
+	"sid": 797466014852645
+}
